@@ -43,8 +43,8 @@ while run:
     #update velocity
     velocity += acceleration * timeInterval
     # print(velocity)
-    y = y+velocity
     #updating the position of ball in y-axis 
+    y = y+velocity
     
 
     #drawing circle
