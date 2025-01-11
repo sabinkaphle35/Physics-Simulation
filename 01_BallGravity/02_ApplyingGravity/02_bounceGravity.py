@@ -1,3 +1,5 @@
+# its still incomplete
+
 import pygame
 
 #initialize pygame
@@ -17,7 +19,7 @@ x = width /2
 y = 40
 
 #radius of ball
-radius = 20
+radius = 30
 
 #color of ball
 ballColor = pygame.Color("red")
@@ -28,7 +30,7 @@ initialVelocity = 0.1
 timeInterval = 1
 velocity = initialVelocity
 vNew = 0
-coofOfRestitution_e = 0.8
+coofOfRestitution_e = 0.7
 
 
 #running window until closed

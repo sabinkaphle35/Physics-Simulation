@@ -1,3 +1,5 @@
+# Collision Detection on x axis only
+
 import pygame
 import math
 
@@ -28,9 +30,6 @@ color_2 = pygame.Color("green")
 
 #change in positio x
 dx = 2
-
-
-
 
 
 #window loop to run until quit
